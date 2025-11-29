@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'ExpoTech 2025 – Festival des technologies émergentes',
+  title: 'ExpoEvent 2025 – Festival des technologies émergentes',
   description: 'Conférences, ateliers et expériences immersives autour de l’IA, XR, Web3.',
 };
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-blue-50`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <Navbar />
         <main className="flex-1">{children}</main>
